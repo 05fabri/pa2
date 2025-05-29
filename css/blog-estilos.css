@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#blog{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 1500px;
+    color: #eee;
+    background-image: url(../img/fondo\ de\ sangre.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Texto;
+}
+#menublog{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    text-align: center;
+    background-color: #8b0000;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
+#menublog h1{
+    font-size: 60px;
+    font-family: Titulo;
+}
+#menublog ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#menublog li{
+    list-style-type: none;
+    padding: 20px;
+}
+#menublog a{
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#menublog a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+#menublog a.active{
+    text-decoration: underline 2px red;
+    text-underline-offset: 6px;
+}
+#menublog img{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+.imagen-principal{
+    margin-top: 16%;
+    width: 100%;
+}
+.subtituloimagen{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 20px 0px;
+}
+.subtituloimagen h3{
+    margin: 10px 100px;
+    font-size: 28px;
+    font-family: Titulo;
+}
+.imagenredonda{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    left: 50%;
+}
+#parrafoblog{
+    text-align: justify;
+}
+p{
+    font-size: 17px;
+}
+.parrafoimagen{
+    display: flex;
+    justify-content: space-around;
+}
+.mano{
+    width: 200px;
+    height: 110px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: black;
+}
+#linksblog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#linksblog li{
+    list-style-type: none;
+    margin: 35px 5px
+}
+#linksblog img{
+    border-radius: 50%;
+    padding: 2px;
+    background-color: black;
+}
